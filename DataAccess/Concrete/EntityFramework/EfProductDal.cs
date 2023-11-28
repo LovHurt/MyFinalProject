@@ -48,7 +48,7 @@ namespace DataAccess.Concrete.EntityFramework
             {
                 return filter == null 
                     ? context.Set<Product>().ToList() 
-                    : context.Set<Product>().Where(filter).ToList();
+                    : context.Set<Product>().Where(filter).ToList(); 
             }
         }
 

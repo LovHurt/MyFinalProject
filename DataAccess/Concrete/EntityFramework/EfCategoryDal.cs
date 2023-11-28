@@ -15,7 +15,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             throw new NotImplementedException();
         }
-
+         
         public void Delete(Category entity)
         {
             throw new NotImplementedException();
